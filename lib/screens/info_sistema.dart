@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:rutas_app/data/data_class.dart';
+//import 'package:rutas_app/data/data_class.dart';
 import 'package:rutas_app/widgets/custom_appBar.dart';
-import 'package:rutas_app/widgets/tarjetas.dart';
+
+import '../widgets/widgets.dart';
+//import 'package:rutas_app/widgets/tarjetas.dart';
 
 class InfoSistemaScreen extends StatelessWidget {
   //final AssetImage image = AssetImage('assets/folderimg.png');
