@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:rutas_app/widgets/custom_card.dart';
+import 'package:rutas_app/theme/app_theme.dart';
+import 'package:rutas_app/widgets/sistem_card.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({Key? key}) : super(key: key);
@@ -7,16 +8,14 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        backgroundColor: Colors.white,
+        backgroundColor: Color(0xFFD7CCC8),
         appBar: AppBar(
+          backgroundColor: Colors.brown[200],
           title: const Text(
-            'Ruta de Aprendizaje',
-            style: TextStyle(color: Colors.black),
+            'Ruta de Aprendizaje linux',
           ),
-          backgroundColor: Colors.white,
-          foregroundColor: Colors.brown[100],
           elevation: 0,
         ),
-        body: const CustomCard());
+        body: const InfoSistem());
   }
 }
